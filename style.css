@@ -1,0 +1,58 @@
+body{
+    margin:0;
+    padding:0;
+    background-color:rgb(236, 221, 221);
+}
+
+.container {
+    margin-top: 200px;
+    margin-left: 400px;
+    border-radius:10%;
+    height:20rem;
+    width:50rem;
+    background-color:aliceblue;
+    text-align:center;
+}
+
+.container h2 {
+  
+    font-size: 3rem;
+    margin-top: 10px;;
+    /* margin-bottom:1em; */
+    color:cadetblue;
+    text-align: center;
+    text-decoration: underline;
+       
+}
+
+.container #text {
+        margin-top: 3rem;
+        font-size:2rem;
+        color:rgb(111, 112, 174);
+        text-align:center;
+        font-style: Helvetica;
+
+}
+
+#myBtn {
+    margin:3rem;
+    left:17rem;
+    background-color:rgb(226, 212, 203);
+    border: 1px solid rgb(226, 212, 203);
+    font-style:bold;
+    color:rgb(187, 74, 74);
+    border-radius:40%;
+    font-family:"Bookman Old Style", Georgia, serif;
+    height:50px;
+    font-size:23px;
+}
+
+.buttons {
+    text-align: center; /*The submit button must be covered inside of the div element.*/
+
+}
+
+#myBtn:hover {
+    background-color: bisque;
+}
+
